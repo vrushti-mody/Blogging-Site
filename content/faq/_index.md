@@ -7,9 +7,9 @@ description = "Asked and answered"
 ## Why did I start blogging?
 
 Blogging has the potential to open so many doors. Some might come as a surprise, while others need no explanation.
-Being able to inspire an help my fellow coding community through writing is a satisfying feeling. It makes you want to do it all the more. And when people respond to you in positive ways, you generate a portion of influence over them.
+Being able to inspire and help my fellow coding community through writing is a satisfying feeling. It makes you want to do it all the more. When people respond to you in positive ways, you generate a portion of influence over them.
 
-The more you write about a subject, the more of an confident you become about it. For me, blogging was an effective way for me to break out of my shell. As an anxious introvert, I found it hard to put myself out there and allow my thoughts and ideas to be heard. Blogging gave me a platform to shout from – a way to confront my fear of being noticed.
+The more you write about a subject, the more confident you become about it. For me, blogging was an effective way to break out of my shell. As an anxious introvert, I found it hard to put myself out there and allow my thoughts and ideas to be heard. Blogging gave me a platform to shout from – a way to confront my fear of being noticed.
 
 ## What’s the difference between blogs and documentation?
 

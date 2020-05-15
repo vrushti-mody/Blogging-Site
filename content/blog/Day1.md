@@ -1,10 +1,10 @@
 +++
 date = "2020-05-01T21:56:55+01:00"
-title = "Day 1 of May Leetcode Challenge"
-tags = ["Competitive Coding","Algorithms","Data Structures","Python"]
+title = "First Bad Version: Day 1 of May Leetcode Challenge"
+tags = ["Competitive Coding","Algorithms","Data Structures","Python", "Binary Search", "Searching"]
 categories = ["Competitive Coding"]
 draft = false
-description = "My solution to the May Leetcode challenge"
+description = "My solution to First Bad Version, the question for Day 1 of the May Leetcoding Challenge challenge"
 weight = 10
 +++
 
@@ -18,7 +18,7 @@ weight = 10
 - Understanding of atleast one programming language
 - Basic knowledge of data structures
 
-### Problem Definition
+### First Bad Version: Problem Definition
 
 You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
 
@@ -41,7 +41,11 @@ The problem is similar to finding an element in the list. Conventional methods l
 ### Configuring Cypress
 
 ``` python
-
+    
+    # The isBadVersion API is already defined for you.
+    # @param version, an integer
+    # @return an integer
+    # def isBadVersion(version):
 
     class Solution:
         def firstBadVersion(self, n):
