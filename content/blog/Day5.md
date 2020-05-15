@@ -35,7 +35,7 @@ Given a string, find the first non-repeating character in it and return it's ind
 
 ### Approach
 
-This problem is similar to problem solved during [Day 3](./day3/). We first check the count of each element in the list and then return the index of the element with count equal to 1.
+This problem is similar to problem solved during [Day 3](https://blog.vrushtimody.me/blog/day3/). We first check the count of each element in the list and then return the index of the element with count equal to 1.
 
 ### Solution
 
