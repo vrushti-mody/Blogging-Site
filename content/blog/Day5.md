@@ -39,8 +39,7 @@ This problem is similar to problem solved during [Day 3](./day3/). We first chec
 
 ### Solution
 
-``` python
-    
+``` python    
     class Solution:
         def firstUniqChar(self, s: str) -> int:
             order = {}
@@ -56,7 +55,6 @@ This problem is similar to problem solved during [Day 3](./day3/). We first chec
                 if counts[x] == 1:
                     return order[x]
             return -1
-
 
 ```
 
