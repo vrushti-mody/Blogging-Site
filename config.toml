@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Vrushti Mody"
+theme = "kube"
+description = "Join me on my adventures in the land of coding."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "Vrushti Mody" # add your company name
+  github = "https://github.com/vrushti-mody" # add your github profile name
+  LinkedIn = "https://www.linkedin.com/in/vrushti-mody-b2a208165" # add your twitter profile
+  email = "vrushtimody6@gmail.com"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "FAQ"
+    weight = -100
+    url = "/faq/"
