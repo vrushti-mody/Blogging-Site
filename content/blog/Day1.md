@@ -38,7 +38,7 @@ Given n = 5, and version = 4 is the first bad version.
 
 The problem is similar to finding an element in the list. Conventional methods like iterating through each element (linear search) will increase the time complexity. Therefore, a [binary search](https://www.geeksforgeeks.org/binary-search/) method should be applied to obtain the solution. 
 
-### Configuring Cypress
+### Solution
 
 ``` python
     
