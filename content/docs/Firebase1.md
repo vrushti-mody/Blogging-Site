@@ -49,23 +49,21 @@ The benifit of the realtime database is that the data is synchronized. The setti
 ### Setting Up Firebase
 
 Once you create a project, go to the web app (</>) section and obtain the Firebase SDK snippet. It will look something like this:
-```javascript
+
 
     <script>
-    // Your web app's Firebase configuration
     var firebaseConfig = {
-        apiKey: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-        authDomain: "project-4a739.firebaseapp.com",
-        databaseURL: "https://project-4a739.firebaseio.com",
-        projectId: "project-4a739",
-        storageBucket: "project-4a739.appspot.com",
-        messagingSenderId: "171304280347",
-        appId: "1:171404280147:web:220f33311gfb99a23a6ebe",
-        measurementId: "G-WFFV1VZL9P"
+    apiKey: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    authDomain: "project-4a739.firebaseapp.com",
+    databaseURL: "https://project-4a739.firebaseio.com",
+    projectId: "project-4a739",
+    storageBucket: "project-4a739.appspot.com",
+    messagingSenderId: "171304280347",
+    appId: "1:171404280147:web:220f33311gfb99a23a6ebe",
+    measurementId: "G-WFFV1VZL9P"
     };  
     </script>
 
-  ```
 If you are using node/react, you can directly install the firebase package using the command
     npm install firebase
 or
@@ -74,14 +72,13 @@ or
 In this case you donot need to requre the first two scripts that you see on top of the code above, since firebase is already installed.
 
 Now, to create an instance of the database, first import the package, then use the following code:
-```javascript
 
     import * as firebase from 'firebase'
 
     firebase.initializeApp(firebaseConfig);
     const database= firebase.database();
 
-```
+
 
 The import syntax for firebase is different than conventional react imports, however this is how it is mentioned in the official firebase documentation. You can view the official documentation [here](https://firebase.google.com/docs)
 
