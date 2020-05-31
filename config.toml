@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Vrushti Mody"
 theme = "kube"
-disqusShortname: "https-vrushtimody-me"
+disqusShortname= "https-vrushtimody-me"
 description = "Join me on my adventures in the land of coding."
 Paginate = 4
 [Params]
