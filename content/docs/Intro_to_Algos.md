@@ -14,6 +14,7 @@ weight = 10
 - Sequence of steps (Varying degrees of detail)
 
 Algorithms can be used to/for:
+
 - Compute numerical functions
 - Reorganize data
 - Optimization
