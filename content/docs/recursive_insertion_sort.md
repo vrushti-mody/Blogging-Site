@@ -1,6 +1,6 @@
 +++
 date = "2020-06-09T21:56:55+01:00"
-title = "Recursion"
+title = "Recursive Insertion Sort"
 tags = ["algorithms","python","data structures","recursion","sort"]
 categories = ["recursion"]
 draft = false
